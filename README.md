@@ -1,39 +1,28 @@
-Przewodnik po aplikacji
+File Organizer_2 to prosta aplikacja pozwalająca na porządkowanie plików na dysku poprzez przenoszenie ich do określonego folderu na podstawie ich rozszerzenia.
 
-Opis aplikacji:
-SProsty organizator plików pozwala na automatyczne sortowanie plików w określonym katalogu według rozszerzenia pliku. Umożliwia to szybkie i efektywne przenoszenie plików do wskazanych folderów.
+Funkcjonalności"
+- Wyświetlanie opisów dla różnych rozszerzeń plików.
+- Wybór ścieżki i typu plików do organizacji.
+- Przenoszenie plików do określonego folderu na podstawie wybranej ścieżki i typu plików.
+- Zapisywanie informacji o przeniesionych plikach do pliku dziennika.
+- Obsługa błędów, takich jak brak miejsca na docelowym dysku.
 
-Jak uruchomić skrypt:
+Sposób użycia:
+1. Uruchom skrypt `file_organizer_2.py`:
+   - otwórz wiersz poleceń (Command Prompt) lub PowerShell.
+   - przejdź do folderu, w którym znajduje się skrypt (polecenie cd).
+   - uruchom skrypt, wpisując: python file_organizer_2.py.
+3. Wybierz jedną z dostępnych opcji:
+   - `help`: Wyświetla opisy rozszerzeń plików.
+   - `enter directory`: Wprowadź ścieżkę i typ plików do organizacji.
+   - `move`: Przenieś pliki do określonego folderu.
+   - `exit`: Wyjdź z programu.
 
-    Otwórz wiersz poleceń (Command Prompt) lub PowerShell.
-    Przejdź do folderu, w którym znajduje się skrypt.
-    Uruchom skrypt, wpisując python file_organizer.py.
-
-Dostępne Komendy:
-
-    help - Wyświetla opisy poszczególnych rozszerzeń plików.
-    enter directory - Pozwala użytkownikowi na określenie katalogu i rodzaju plików, które mają być zorganizowane.
-    move - Przenosi pliki do wybranego folderu na podstawie wcześniej określonych danych.
-    exit - Zamyka program.
-
-Szczegółowy Opis Komend:
-
-    help:
-        Po wpisaniu komendy help skrypt wyświetli listę rozszerzeń plików wraz z ich opisami. Przykładowo, .doc - dokument tekstowy Microsoft Word, .jpg - obraz w formacie JPEG.
-
-    enter directory:
-        Komenda enter directory pozwala użytkownikowi na wprowadzenie ścieżki do katalogu, w którym znajdują się pliki do zorganizowania oraz na podanie rozszerzenia plików, które mają być przeniesione. Skrypt sprawdzi i wyświetli listę plików pasujących do podanego rozszerzenia. Jeśli użytkownik nie wprowadzi kropki przed rozszerzeniem, skrypt automatycznie ją doda.
-
-    move:
-        Po wybraniu plików za pomocą komendy enter directory, można użyć komendy move, aby przenieść te pliki do nowego folderu. Skrypt zapyta o ścieżkę do folderu docelowego. Jeśli nie zostaną spełnione wcześniejsze warunki (określenie katalogu i typu pliku), skrypt poinformuje o konieczności wykonania komendy enter directory.
-
-    exit:
-        Komenda exit zakończy działanie programu.
-
-Jak używać:
-
-    Uruchom skrypt.
-    Wpisz help aby zobaczyć, które rozszerzenia plików możesz zorganizować.
-    Wpisz enter directory, a następnie podaj ścieżkę i rozszerzenie plików, które chcesz zorganizować.
-    Wpisz move, aby przenieść pliki do nowego folderu.
-    Wpisz exit, aby zakończyć działanie skryptu.
+Przykładowe użycie:
+1. Uruchom skrypt `file_organizer_2.py`.
+2. Wpisz `help`, aby zobaczyć opisy rozszerzeń plików.
+3. Wpisz `enter directory`, aby wprowadzić ścieżkę i typ plików do organizacji.
+4. Wyświetli się lista plików spełniających kryteria.
+5. Wpisz `move`, aby przenieść pliki do wybranego folderu.
+6. Podaj ścieżkę docelową i potwierdź przenoszenie plików.
+7. Skrypt przeniesie pliki i zapisze informacje o nich do pliku dziennika.
